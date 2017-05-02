@@ -1,0 +1,14 @@
+MyDll文件位置：
+
+在“Work”文件中找到MyDll目录下的MyDll文件夹->bin->Debug->MyDll.dll，
+MyDll.dll则是我生成的dll文件。
+
+
+MyDll文件引用：
+在vs2015中新建vb.net项目，在解决方案资源管理器中找到引用，右键选择添加引用，
+在“浏览”菜单中选择刚刚的MyDll文件，即可成功引用。
+
+代码中引用：
+Imports MyDll
+Dim MyOffice = New MyDll.Office
+MyOffice.NewDocument()      //则可生成新的文档

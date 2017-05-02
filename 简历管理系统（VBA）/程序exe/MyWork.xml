@@ -1,0 +1,596 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MyWork
+</name>
+</assembly>
+<members>
+<member name="T:MyWork.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:MyWork.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:MyWork.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.AlignmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.ColorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.FontNameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.FontSizeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.MyOfficeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.PicLayoutDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.TitleLevelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.TypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.AlignmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.ColorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.FontNameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.FontSizeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.MyOfficeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.PicLayoutRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.TitleLevelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.TypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.AlignmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.ColorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.FontNameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.FontSizeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.MyOfficeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.PicLayoutRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.TitleLevelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet.TypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSetTableAdapters.AlignmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSetTableAdapters.ColorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSetTableAdapters.FontNameTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSetTableAdapters.FontSizeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSetTableAdapters.MyOfficeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSetTableAdapters.PicLayoutTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSetTableAdapters.TitleLevelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSetTableAdapters.TypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MyWork.officeDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(MyWork.officeDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MyWork.officeDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(MyWork.officeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MyWork.officeDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(MyWork.officeDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MyWork.officeDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MyWork.officeDataSetTableAdapters.TableAdapterManager.UpdateAll(MyWork.officeDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MyWork.officeDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.AlignmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.ColorDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.CompanyNatureDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.CompanySizeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.FontNameDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.FontSizeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.ListDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.MarriageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.MyOfficeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.PicLayoutDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.SexDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.StatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.TitleLevelDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.TypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.WorkingLifeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.WorkingTypeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.AlignmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.ColorRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.CompanyNatureRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.CompanySizeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.FontNameRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.FontSizeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.ListRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.MarriageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.MyOfficeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.PicLayoutRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.SexRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.StatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.TitleLevelRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.TypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.WorkingLifeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.WorkingTypeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.AlignmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.ColorRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.CompanyNatureRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.CompanySizeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.FontNameRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.FontSizeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.ListRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.MarriageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.MyOfficeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.PicLayoutRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.SexRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.StatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.TitleLevelRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.TypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.WorkingLifeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1.WorkingTypeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.AlignmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.ColorTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.CompanyNatureTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.CompanySizeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.FontNameTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.FontSizeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.ListTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.MarriageTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.MyOfficeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.PicLayoutTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.SexTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.StatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.TitleLevelTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.TypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.WorkingLifeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.WorkingTypeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:MyWork.officeDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(MyWork.officeDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:MyWork.officeDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(MyWork.officeDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:MyWork.officeDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(MyWork.officeDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:MyWork.officeDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:MyWork.officeDataSet1TableAdapters.TableAdapterManager.UpdateAll(MyWork.officeDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:MyWork.officeDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
